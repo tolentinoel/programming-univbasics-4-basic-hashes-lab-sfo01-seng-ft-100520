@@ -14,5 +14,6 @@ end
 
 
 def id_hash_generator(number)
-  generator = {:id => #{number}}
+  if generator = {:id => 0}
+  
 end
