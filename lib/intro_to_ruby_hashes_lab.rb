@@ -14,10 +14,11 @@ end
 
 
 def id_hash_generator(number)
+  generator = Hash.new
+  
   if generator[:id]
     generator[:id] = number
   else
-    generator = Hash.new
     generator[:id] = number
   end
   generator
