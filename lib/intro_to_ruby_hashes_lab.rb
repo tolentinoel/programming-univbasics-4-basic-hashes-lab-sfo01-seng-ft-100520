@@ -20,4 +20,5 @@ def id_hash_generator(number)
     generator = Hash.new
     generator[:id] = number
   end
+  generator
 end
