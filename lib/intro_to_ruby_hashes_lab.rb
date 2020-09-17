@@ -3,8 +3,8 @@ def new_hash
 end
 
 def my_hash
-  my_new_hash = Hash.new 
-  my_new_hash
+  new_hash = {:key => "default_value"}
+  new_hash
 end
 
 def pioneer
